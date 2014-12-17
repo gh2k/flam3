@@ -60,9 +60,6 @@
 
 
 char *flam3_version() {
-
-  if (strcmp(SVN_REV, "exported"))
-    return flam3_os "-" VERSION "." SVN_REV;
   return flam3_os "-" VERSION;
 }
 
