@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A4F03E1A4B38EE0085C738 /* filters.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F02D1A4B38EE0085C738 /* filters.c */; };
+		F4A4F03F1A4B38EE0085C738 /* filters.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F02E1A4B38EE0085C738 /* filters.h */; };
+		F4A4F0401A4B38EE0085C738 /* flam3.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F02F1A4B38EE0085C738 /* flam3.c */; };
+		F4A4F0411A4B38EE0085C738 /* flam3.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0301A4B38EE0085C738 /* flam3.h */; };
+		F4A4F0421A4B38EE0085C738 /* interpolation.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0311A4B38EE0085C738 /* interpolation.c */; };
+		F4A4F0431A4B38EE0085C738 /* interpolation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0321A4B38EE0085C738 /* interpolation.h */; };
+		F4A4F0441A4B38EE0085C738 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0331A4B38EE0085C738 /* isaac.c */; };
+		F4A4F0451A4B38EE0085C738 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0341A4B38EE0085C738 /* isaac.h */; };
+		F4A4F0461A4B38EE0085C738 /* isaacs.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0351A4B38EE0085C738 /* isaacs.h */; };
+		F4A4F0471A4B38EE0085C738 /* jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0361A4B38EE0085C738 /* jpeg.c */; };
+		F4A4F0481A4B38EE0085C738 /* palettes.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0371A4B38EE0085C738 /* palettes.c */; };
+		F4A4F0491A4B38EE0085C738 /* palettes.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0381A4B38EE0085C738 /* palettes.h */; };
+		F4A4F04A1A4B38EE0085C738 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0391A4B38EE0085C738 /* parser.c */; };
+		F4A4F04B1A4B38EE0085C738 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F03A1A4B38EE0085C738 /* parser.h */; };
+		F4A4F04C1A4B38EE0085C738 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F03B1A4B38EE0085C738 /* png.c */; };
+		F4A4F04D1A4B38EE0085C738 /* variations.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F03C1A4B38EE0085C738 /* variations.c */; };
+		F4A4F04E1A4B38EE0085C738 /* variations.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F03D1A4B38EE0085C738 /* variations.h */; };
+		F4A4F0501A4B54780085C738 /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F04F1A4B54780085C738 /* private.h */; };
+		F4A4F0521A4B55DC0085C738 /* config-xcode.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A4F0511A4B55DC0085C738 /* config-xcode.h */; };
+		F4A4F0551A4B5BFA0085C738 /* docstring.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0531A4B5BFA0085C738 /* docstring.c */; };
+		F4A4F0561A4B5BFA0085C738 /* flam3-animate.c in Sources */ = {isa = PBXBuildFile; fileRef = F4A4F0541A4B5BFA0085C738 /* flam3-animate.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4A4EFF11A4B343C0085C738 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4A4EFF31A4B343C0085C738 /* flam3-animate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "flam3-animate"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4F0291A4B37F50085C738 /* libflam3.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libflam3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4F02D1A4B38EE0085C738 /* filters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filters.c; path = ../filters.c; sourceTree = "<group>"; };
+		F4A4F02E1A4B38EE0085C738 /* filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filters.h; path = ../filters.h; sourceTree = "<group>"; };
+		F4A4F02F1A4B38EE0085C738 /* flam3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flam3.c; sourceTree = SOURCE_ROOT; };
+		F4A4F0301A4B38EE0085C738 /* flam3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flam3.h; sourceTree = SOURCE_ROOT; };
+		F4A4F0311A4B38EE0085C738 /* interpolation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interpolation.c; path = ../interpolation.c; sourceTree = "<group>"; };
+		F4A4F0321A4B38EE0085C738 /* interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = interpolation.h; path = ../interpolation.h; sourceTree = "<group>"; };
+		F4A4F0331A4B38EE0085C738 /* isaac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = isaac.c; path = ../isaac.c; sourceTree = "<group>"; };
+		F4A4F0341A4B38EE0085C738 /* isaac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isaac.h; path = ../isaac.h; sourceTree = "<group>"; };
+		F4A4F0351A4B38EE0085C738 /* isaacs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isaacs.h; path = ../isaacs.h; sourceTree = "<group>"; };
+		F4A4F0361A4B38EE0085C738 /* jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jpeg.c; path = ../jpeg.c; sourceTree = "<group>"; };
+		F4A4F0371A4B38EE0085C738 /* palettes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = palettes.c; path = ../palettes.c; sourceTree = "<group>"; };
+		F4A4F0381A4B38EE0085C738 /* palettes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = palettes.h; path = ../palettes.h; sourceTree = "<group>"; };
+		F4A4F0391A4B38EE0085C738 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parser.c; path = ../parser.c; sourceTree = "<group>"; };
+		F4A4F03A1A4B38EE0085C738 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parser.h; path = ../parser.h; sourceTree = "<group>"; };
+		F4A4F03B1A4B38EE0085C738 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = ../png.c; sourceTree = "<group>"; };
+		F4A4F03C1A4B38EE0085C738 /* variations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = variations.c; path = ../variations.c; sourceTree = "<group>"; };
+		F4A4F03D1A4B38EE0085C738 /* variations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = variations.h; path = ../variations.h; sourceTree = "<group>"; };
+		F4A4F04F1A4B54780085C738 /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		F4A4F0511A4B55DC0085C738 /* config-xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-xcode.h"; sourceTree = "<group>"; };
+		F4A4F0531A4B5BFA0085C738 /* docstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = docstring.c; sourceTree = SOURCE_ROOT; };
+		F4A4F0541A4B5BFA0085C738 /* flam3-animate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "flam3-animate.c"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A4EFF01A4B343C0085C738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4F0261A4B37F50085C738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A4EFEA1A4B343C0085C738 = {
+			isa = PBXGroup;
+			children = (
+				F4A4F0571A4B5C030085C738 /* bin */,
+				F4A4F0511A4B55DC0085C738 /* config-xcode.h */,
+				F4A4F0531A4B5BFA0085C738 /* docstring.c */,
+				F4A4EFF51A4B343C0085C738 /* libflam3 */,
+				F4A4EFF41A4B343C0085C738 /* Products */,
+				F4A4F04F1A4B54780085C738 /* private.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A4EFF41A4B343C0085C738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4EFF31A4B343C0085C738 /* flam3-animate */,
+				F4A4F0291A4B37F50085C738 /* libflam3.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A4EFF51A4B343C0085C738 /* libflam3 */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4F02D1A4B38EE0085C738 /* filters.c */,
+				F4A4F02E1A4B38EE0085C738 /* filters.h */,
+				F4A4F02F1A4B38EE0085C738 /* flam3.c */,
+				F4A4F0301A4B38EE0085C738 /* flam3.h */,
+				F4A4F0311A4B38EE0085C738 /* interpolation.c */,
+				F4A4F0321A4B38EE0085C738 /* interpolation.h */,
+				F4A4F0331A4B38EE0085C738 /* isaac.c */,
+				F4A4F0341A4B38EE0085C738 /* isaac.h */,
+				F4A4F0351A4B38EE0085C738 /* isaacs.h */,
+				F4A4F0361A4B38EE0085C738 /* jpeg.c */,
+				F4A4F0371A4B38EE0085C738 /* palettes.c */,
+				F4A4F0381A4B38EE0085C738 /* palettes.h */,
+				F4A4F0391A4B38EE0085C738 /* parser.c */,
+				F4A4F03A1A4B38EE0085C738 /* parser.h */,
+				F4A4F03B1A4B38EE0085C738 /* png.c */,
+				F4A4F03C1A4B38EE0085C738 /* variations.c */,
+				F4A4F03D1A4B38EE0085C738 /* variations.h */,
+			);
+			name = libflam3;
+			path = flam3;
+			sourceTree = "<group>";
+		};
+		F4A4F0571A4B5C030085C738 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4F0541A4B5BFA0085C738 /* flam3-animate.c */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4A4F0271A4B37F50085C738 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4F0411A4B38EE0085C738 /* flam3.h in Headers */,
+				F4A4F0431A4B38EE0085C738 /* interpolation.h in Headers */,
+				F4A4F04E1A4B38EE0085C738 /* variations.h in Headers */,
+				F4A4F0451A4B38EE0085C738 /* isaac.h in Headers */,
+				F4A4F03F1A4B38EE0085C738 /* filters.h in Headers */,
+				F4A4F0501A4B54780085C738 /* private.h in Headers */,
+				F4A4F0521A4B55DC0085C738 /* config-xcode.h in Headers */,
+				F4A4F04B1A4B38EE0085C738 /* parser.h in Headers */,
+				F4A4F0491A4B38EE0085C738 /* palettes.h in Headers */,
+				F4A4F0461A4B38EE0085C738 /* isaacs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4A4EFF21A4B343C0085C738 /* flam3-animate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A4EFFA1A4B343C0085C738 /* Build configuration list for PBXNativeTarget "flam3-animate" */;
+			buildPhases = (
+				F4A4EFEF1A4B343C0085C738 /* Sources */,
+				F4A4EFF01A4B343C0085C738 /* Frameworks */,
+				F4A4EFF11A4B343C0085C738 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flam3-animate";
+			productName = flam3;
+			productReference = F4A4EFF31A4B343C0085C738 /* flam3-animate */;
+			productType = "com.apple.product-type.tool";
+		};
+		F4A4F0281A4B37F50085C738 /* flam3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A4F02A1A4B37F60085C738 /* Build configuration list for PBXNativeTarget "flam3" */;
+			buildPhases = (
+				F4A4F0251A4B37F50085C738 /* Sources */,
+				F4A4F0261A4B37F50085C738 /* Frameworks */,
+				F4A4F0271A4B37F50085C738 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flam3;
+			productName = libflam3;
+			productReference = F4A4F0291A4B37F50085C738 /* libflam3.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A4EFEB1A4B343C0085C738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Simon Detheridge";
+				TargetAttributes = {
+					F4A4EFF21A4B343C0085C738 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F4A4F0281A4B37F50085C738 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F4A4EFEE1A4B343C0085C738 /* Build configuration list for PBXProject "flam3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4A4EFEA1A4B343C0085C738;
+			productRefGroup = F4A4EFF41A4B343C0085C738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A4EFF21A4B343C0085C738 /* flam3-animate */,
+				F4A4F0281A4B37F50085C738 /* flam3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A4EFEF1A4B343C0085C738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4F0551A4B5BFA0085C738 /* docstring.c in Sources */,
+				F4A4F0561A4B5BFA0085C738 /* flam3-animate.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A4F0251A4B37F50085C738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A4F04A1A4B38EE0085C738 /* parser.c in Sources */,
+				F4A4F0471A4B38EE0085C738 /* jpeg.c in Sources */,
+				F4A4F03E1A4B38EE0085C738 /* filters.c in Sources */,
+				F4A4F04C1A4B38EE0085C738 /* png.c in Sources */,
+				F4A4F0441A4B38EE0085C738 /* isaac.c in Sources */,
+				F4A4F0481A4B38EE0085C738 /* palettes.c in Sources */,
+				F4A4F0421A4B38EE0085C738 /* interpolation.c in Sources */,
+				F4A4F0401A4B38EE0085C738 /* flam3.c in Sources */,
+				F4A4F04D1A4B38EE0085C738 /* variations.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4A4EFF81A4B343C0085C738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					XCODE,
+					"PACKAGE_DATA_DIR=\\\"/usr/share/flam3\\\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/include/libxml2,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-lpng",
+					"-ljpeg",
+					"-lxml2",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4A4EFF91A4B343C0085C738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					XCODE,
+					"PACKAGE_DATA_DIR=\\\"/usr/share/flam3\\\"",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/include/libxml2,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-lpng",
+					"-ljpeg",
+					"-lxml2",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4A4EFFB1A4B343C0085C738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lflam3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A4EFFC1A4B343C0085C738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lflam3",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4A4F02B1A4B37F60085C738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A4F02C1A4B37F60085C738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A4EFEE1A4B343C0085C738 /* Build configuration list for PBXProject "flam3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4EFF81A4B343C0085C738 /* Debug */,
+				F4A4EFF91A4B343C0085C738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A4EFFA1A4B343C0085C738 /* Build configuration list for PBXNativeTarget "flam3-animate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4EFFB1A4B343C0085C738 /* Debug */,
+				F4A4EFFC1A4B343C0085C738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4A4F02A1A4B37F60085C738 /* Build configuration list for PBXNativeTarget "flam3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A4F02B1A4B37F60085C738 /* Debug */,
+				F4A4F02C1A4B37F60085C738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A4EFEB1A4B343C0085C738 /* Project object */;
+}

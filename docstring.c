@@ -17,7 +17,11 @@
 */
 
 
+#ifdef XCODE
+#include "config-xcode.h"
+#else //XCODE
 #include "config.h"
+#endif //XCODE
 #include "flam3.h"
 
 

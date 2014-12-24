@@ -199,6 +199,8 @@ double flam3_spatial_filter(int knum, double x) {
       return flam3_lanczos2_filter(x)*flam3_sinc(x/2.0);
    else if (knum==13)
       return flam3_quadratic_filter(x);
+    
+    return 0.0;
 }
 
 int normalize_vector(double *v, int n) {
