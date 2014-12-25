@@ -18,7 +18,11 @@
 
 #include "private.h"
 #include "isaacs.h"
+#ifdef XCODE
+#include "config-xcode.h"
+#else //XCODE
 #include "config.h"
+#endif
 
 int verbose;
 
