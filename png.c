@@ -22,7 +22,11 @@
 #include <png.h>
 #include <setjmp.h>
 
+#ifdef XCODE
+#include "config-xcode.h"
+#else //XCODE
 #include "config.h"
+#endif
 #include "img.h"
 #include "flam3.h"
 #include "private.h"

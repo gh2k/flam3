@@ -21,8 +21,11 @@
 #endif
 
 #include "private.h"
-#include "img.h"
+#ifdef XCODE
+#include "config-xcode.h"
+#else //XCODE
 #include "config.h"
+#endif
 #include "variations.h"
 #include "interpolation.h"
 #include "parser.h"

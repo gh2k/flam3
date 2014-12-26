@@ -20,7 +20,11 @@
 #define private_included
 
 #include "flam3.h"
+#ifdef XCODE
+#include "config-xcode.h"
+#else //XCODE
 #include "config.h"
+#endif
 #include <stdlib.h>
 
 #include <ctype.h>
