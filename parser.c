@@ -290,7 +290,7 @@ int parse_flame_element(xmlNode *flame_node, flam3_genome *loc_current_cp) {
    char *att_str;
    int num_std_xforms=-1;
    char tmps[2];
-   int i,j;
+   int i;
    flam3_xform tmpcpy;
    flam3_chaos_entry *xaos=NULL;
    int num_xaos=0;

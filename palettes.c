@@ -419,18 +419,18 @@ static double try_colors(flam3_genome *g, int color_resolution) {
        p += 3;
     }
 
-    if (0) {
-       int j, k;
-       for (i = 0; i < res; i++) {
-          fprintf(stderr, "\ni=%d: \n", i);
-          for (j = 0; j < res; j++) {
-             for (k = 0; k < res; k++) {
-                fprintf(stderr, " %5d", hist[i * res * res + j * res + k]);
-             }
-             fprintf(stderr, "\n");
+#if 0
+    int j, k;
+    for (i = 0; i < res; i++) {
+       fprintf(stderr, "\ni=%d: \n", i);
+       for (j = 0; j < res; j++) {
+          for (k = 0; k < res; k++) {
+             fprintf(stderr, " %5d", hist[i * res * res + j * res + k]);
           }
+          fprintf(stderr, "\n");
        }
     }
+#endif
 
     hits = 0;
     for (i = 0; i < res3; i++) {
