@@ -26,3 +26,5 @@
 /flam3-convert
 /.idea/
 xcuserdata
+bin/
+orig-bin/
